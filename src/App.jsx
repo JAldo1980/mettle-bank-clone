@@ -1,11 +1,15 @@
+// App.jsx
 import React from "react";
-import "/styles/styles.css";
+import "/Users/jamesalderman/Desktop/mettle-project-folder/mettle/src/styles/styles.css";
+import Container from "./components/Container";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl">Test</h1>
-      <p className="text-xlg">Hello</p>
+      <Container>
+        <Nav />
+      </Container>
     </>
   );
 }
