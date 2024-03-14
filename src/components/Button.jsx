@@ -9,5 +9,5 @@ const Button = ({ className, type, onClick, label }) => {
     </>
   );
 };
-
+ 
 export default Button;
